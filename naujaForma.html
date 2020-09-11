@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="lt">
+	<head>
+		<title>Nauja forma</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h3>Duomenu informacija</h3>
+		<form method="post">
+			<label>El. pasto adresas:*</label>
+			<input type="email" placeholder="Jusu El. pastas" required>
+			<br>
+			<label>Slaptazodis:*</label>
+			<input type="password" placeholder="Jusu slaptazodis" required>
+			<br>
+			<label>Patvirtinti slaptazodi:*</label>
+			<input type="password" placeholder="Slaptazodzio patvirtinimas" required>
+			<input type="checkbox" >
+			<label>Sutinku su taisyklemis</label>
+			<h3>Pasitikrinkite saskaitos adresa</h3>
+			<label>Lytis:*</label>
+			<select>
+				<option selected disabled>--Jusu lytis</option>
+				<option>Vyras</option>
+				<option>Moteris</option>
+			</select>
+			<br>
+			<label>Vardas:*</label>
+			<input type="text" placeholder="Vardas" required>
+			<br>
+			<label>Pavarde:*</label>
+			<input type="text"  placeholder="Pavarde" required>
+			<br>
+			<label>Gatve, namo(buto) nr.:*</label>
+			<input type="text" placeholder="Gatve" required>
+			<input type="text"  placeholder="Numeris" required>
+			<br>
+			<label>Pasto kodas:*</label>
+			<input type="text"  placeholder="Jusu pasto kodas" required>
+			<a href="https://www.post.lt/pasto-kodu-ir-adresu-paieska">Pasto kodo paieska</a>
+			<br>
+			<label>Miestas:*</label>
+			<input type="text" placeholder="Jusu miestas" required>
+			<br>
+			<label>Salis:*</label>
+			<select>
+				<option selected disabled>--Pasirinkite sali</option>
+				<option>Lietuva</option>
+				<option>Anglija</option>
+				<option>Jungtines Amerikos Valstijos</option>
+				<option>Kinija</option>
+				<option>Rusija</option>
+			</select>
+			<br>
+			<label>Telefonas:*</label>
+			<input type="text" placeholder="Jusu numeris" required>
+			<br>
+			<label>Papildoma informacija:*</label><br>
+			(Pavyzdziui varteliu/duru kodas)<br>
+			<textarea></textarea>
+			<br>
+			Prasome uzpildyti visus pazymetus laukus su *
+			<br>
+			<button type="submit">Registruotis</button>
+		</form>
+	</body>
+</html>
